@@ -14,23 +14,15 @@ body{
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-    /* padding-right: 10%; */
     box-shadow: 100px;
-
-
 } 
-.header1{
-    /* margin-left: 10%; */
-}
+
 .name{
     color:aqua
 }
 .container{
     display: flex;
     justify-content: space-between;
-    /* padding-left: 10%; */
 }
 .h1{
     /* align-content: center; */
@@ -51,7 +43,15 @@ body{
     font-size: 50px;
     width: 10px;
     height: 20px;
-   
+}
+.ftr img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ftr img:hover {
+    transform: scale(1.1);
 }
 .copyright{
     
